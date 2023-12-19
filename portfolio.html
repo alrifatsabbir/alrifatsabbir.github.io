@@ -4,30 +4,391 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+
+
     <title>portfolio</title>
 </head>
 <body>
+    <header>
     <nav>
         <div class="logo">
-            <h1>Portfolio</h1>
+            <h1 style="font-family: 'Redressed', cursive;"><a href="#home" style=" color: #fff;">Portfolio</a></h1>
         </div>
         <div class="navbar">
-            <ul>
+            <ul class="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#blogs">Blogs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="nav-btn">
+        <div class="btn1">
             <ul>
                 <li><a target="_parent" href="info.html">Sign In</a></li>
             </ul>
         </div>
+        <i class='bx bx-menu' id="toggle"></i>
     </nav>
+    </header>
+    <section id="home">
+        <style>
+            .carousel-indicators img{
+                width: 70px;
+                display: block;
+            }
+            .carousel-indicators button{
+                width: max-content!important;
+            }
+            .carousel-indicators{
+                position: unset;
+            }
+        </style>
+    <div class="carousel slide" 
+    id="carouselDemo"
+    data-bs-wrap="true" 
+    data-bs-ride="carousel">
+    
+        <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+                <img src="bg3.png" class="w-100">
+                <div class="carousel-caption">
+                    <h5>WEB DEVELOPER</h5>
+                    <p>
+                        Web developers conjure digital magic: transforming code into vibrant websites and smooth web apps, shaping the online world we interact with every day. 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="carousel-item " 
+            data-bs-interval="2000">
+                <img src="bg3.png" class="w-100">
+                <div class="carousel-caption">
+                    <h5>DIGITAL MARKETER</h5>
+                    <p>
+                        A digital marketer orchestrates online brand conversations, driving engagement and business goals. 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="carousel-item ">
+                <img src="bg3.png" class="w-100">
+                <div class="carousel-caption">
+                    <h5>GRAPHIC DESIGNER</h5>
+                    <p>
+                        Graphic designers: Visual storytellers who paint with pixels and ink. 
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    
+        <button class="carousel-control-prev" 
+        type="button"
+        data-bs-target="#carouselDemo" 
+        data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+    
+        <button class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselDemo"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    
+        <div class="carousel-indicators">
+            <button type="button" class="active"
+                data-bs-target="#carouselDemo"
+                data-bs-slide-to="0">
+                <img src="bg3.png" />
+            </button>
+    
+            <button type="button" 
+            data-bs-target="#carouselDemo"
+            data-bs-slide-to="1">
+                <img src="bg3.png" />
+            </button>
+    
+            <button type="button"
+            data-bs-target="#carouselDemo"
+            data-bs-slide-to="2">
+                <img src="bg3.png" />
+            </button>
+        </div>
+    
+    </div>
+    </section>
+    <section>
+    <div class="hero">
+        <div class="hero1">
+            <h1>Al Rifat Sabbir</h1>
+            <p>WEB DEVELOPER • DIGITAL MARKETER • GRAPHIC DESIGNER </p>
+        </div>
+    </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="aboutme">
+                <dl>
+                    <dt><h1>ABOUT ME</h1></dt>
+                    <dd><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis corporis reprehenderit sunt ex iure non, repellat dolorem animi voluptas nam eos numquam dolorum, porro quam asperiores repudiandae dicta commodi laboriosam dolore tempore at saepe! Quibusdam autem, quasi repudiandae velit iusto eaque itaque explicabo officiis dolores! Temporibus tenetur vel atque voluptate minus quo qui, maiores, voluptatum aliquam eius consectetur, sint a dolor! Quis architecto dolor impedit facere nulla iste hic maiores numquam incidunt accusamus, vel, expedita saepe! Culpa autem laborum repellat dignissimos soluta temporibus dolorem animi, molestias est nemo provident! Nobis libero culpa officia quae debitis deserunt impedit eaque ipsam saepe accusamus nihil suscipit temporibus quos delectus, qui eos quia totam laudantium voluptas! Enim nostrum maiores repellendus labore ipsum optio adipisci, natus sed et! Quasi debitis vero aperiam accusamus. Iure!</p></dd>
+                </dl>
+            </div>
+            <div class="image1">
+                <img src="img.jpg" alt="img" height="270px" width="270px">
+                <div class="ico"><i class='bx bx-user'></i> <strong> ADMIN</strong>
+                <h6>Al Rifat Sabbir</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tech">
+        <div class="techy">
+            <h1><strong>Technologies I Know</strong></h1>
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <img src="bg3.png" alt="bg3" height="220px" width="320px">
+            </div>
+            <div class="card2">
+                <img src="bg3.png" alt="bg3" height="220px" width="320px">
+            </div>
+            <div class="card3">
+                <img src="bg3.png" alt="bg3" height="220px" width="320px">
+            </div>
+            <div class="card4">
+                <img src="bg3.png" alt="bg3" height="220px" width="320px">
+            </div>
+            <div class="card5">
+                <img src="bg3.png" alt="bg3" height="220px" width="320px">
+            </div>
+            <div class="card6">
+                <img src="bg3.png" alt="bg3" height="220px" width="320px">
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projectsdiv">
+            <h1><strong>Projects</strong></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta dolores laborum mollitia quod sed soluta voluptates eveniet natus facere! Atque labore dolore praesentium ratione reprehenderit asperiores sunt mollitia veniam fuga aliquam. Libero, asperiores nulla? Earum vero animi quibusdam explicabo facere quam doloremque. Quae modi quod temporibus, consequuntur excepturi est?</p>
+        </div>
+        <div class="cardsp">
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="cardsp1">
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardsp2">
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardp">
+                <div class="cardimg">
+                    <img src="bg3.png" alt="bg3" width="100%" height="100%">
+                </div>
+                <div class="cardtitle">
+                    <h3>Project for Health</h3>
+                    <p>Health isn't just a perfect body; it's a vibrant dance of physical and mental well-being. Nourishing your body with mindful movement and wholesome food fuels energy, while tending to your mind with rest, laughter, and connection builds resilience. Remember, true health blooms when both body and soul find their rhythm.</p>
+                    <div class="infocardt">
+                        <a target="_parent" href="info.html"><i class='bx bx-info-circle'></i><p> Learn more...</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="serve">
+            <h1><strong>Services</strong></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae minima obcaecati nihil ab eum corrupti ipsam! Sequi amet delectus commodi quisquam! Deserunt quia tempore alias ducimus qui quasi mollitia commodi eos! Culpa assumenda commodi vel doloribus, tempora non a animi, totam laborum tenetur explicabo at qui aperiam impedit dicta quas ipsa porro quibusdam accusantium similique? Ab molestias debitis ducimus voluptatem numquam sit maiores modi temporibus.</p>
+        </div>
+        <div class="servicecard">
+        <div class="servicecards1">
+            <div class="serve1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAeZJREFUWEftl+1NAzEMhpsJYAPKBMAEtBPACNcJKBvABNAJ6AbABFwnKBtwTABMcLyvlCKUS2Ln48f9OEtRVdV2ntqJ7ZjZSMWMlGs2gaVmJitifd+fY6OjwGafxpguFcTVV4EB5BiGN1gN1lyx6Td0XrDucyFFMEAR5gGLcDmyBtwm1TAKBqi1hUr16+pvAbdKcRIEA9Q1HD2nOBN0N4DjH1WJF8yeqY+C9IU2XwKu1ZCFwGql0GVoAbYsAetgfKJxkKFzqrmpoYj10nnB7ywJrvDmNlihGkd9VToHYLZ47iNg0UNsy8tTxJ617U6KtA9sAaO3AjDpNqtuZw4YU/iI5btdbFWMhlSMac/OQPlBBN/dQOSASVnI+X1w7sYCNjh3E5iQ3yliqRegasR2yt3n0JPaWxWwHeoOi7BaFHNdFTBVS/lPbceor5Q25SsXDD1nsZCwSrMg+pr4wMZCcTRvisBoDGfSdKFOo1LxFn+UbepPQmMP+9iV0mkNtcGMFgJj2GOjSw2Ygw/vZYo9RlpYXtYkCPi6UE0XB2N7aDt8j02jpdwrQG19TqR3JecrGp6VEnjsg1DU1bzEOfTx1cRVI3qv9CU9SEQwJ7ULfGcUc4THgs83foqiBhM9VVaYwFIDOtqI/QLG5rwnP2gJjwAAAABJRU5ErkJggg=="/>                
+                <h3>Blogging </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam sunt blanditiis atque. Perspiciatis sapiente cum eos consequatur omnis quidem sint nesciunt neque voluptatibus magnam culpa officiis laudantium, quia error explicabo facilis non assumenda. Consequuntur, minus corporis fugiat eligendi, iusto similique aliquid numquam non ad vitae porro cum amet consequatur.</p>
+            </div>
+            <div class="serve1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAqZJREFUWEftl/1R20AQxVEFpIOYCgIV4FQQUwGmAkIFmApCKsAdBCrAqQBcQUQFgQrMe5pdzfq0J93JYtAf1oxmpPvY/d27vWe5OBjpVYyU62APlrszgyu22WwmgPiB+29RFM+5QDr+I8DmCH4nCdaAO+4D9xFgS4CcC8wDwGZjAXsCiKp0BbDbTwdDfX0BxH8D8h1gqzGATQHxWBcwqPpAcU7viV5CKLZA+7X08VQStNeVBUYrQLIylgn93LZT6f+NsT91LPqmOduaDIbAcyShDWwltJAYw/pinfE6A8g9H9DOw8Atpq+x/bVLxiQwBCYQwfS6QPBlAMXkPJF6HVFdORBsn0hHKXCt5tsKJkG5UmuSb4RUNZTCKMqmF/RXIBKDyukWs5mK0Uq2FmcXGgUz8uvWcN5aoBqrxXgmiRor+ulnlzY5nm8BdxW0Va8uWLB6nfcgUG59YE6nsUpcAh4amBWeG3XXAHPqiTFusLKFtzKzXUnGKjvBrf1q4pUCV+/EFpgjt1tPISCtAG3JxhqpO8Kd6IkNwSirLVJXZgeMamYZa6RcqpPcqDGRmTC2Bigv7SF6vNuM1dv+lHLxaoynkHDfTFAWPOEqw3QUc43VGcfYSfbTZhdLBNHjrzkWgLuxCUXlhrE6UOr+SfbTZbBzJNCvUc1F1aheZRsxYw3gvTit9tP5kxSpu9o+Eox1KttnWVvthwM7wUQVW3d0f34pqGL/8D6RrO4Xq/kcSrKfZDBdqvgcf0ZKA5xqrAvMuW873VbSJMXCQjagMzz/0Xck3SnekGBUIctYY4sM23daYa6xpkJl11gYGGAb01Z/seYAxMb2VizVWPtC7gLGPxq/JHH9xdoXZLAag2L0rjnuKe4SB5LPg129FRuMIBJoD5ar8GgVewf4FkQ2JTj4YwAAAABJRU5ErkJggg=="/>
+                <h3>Web Design </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam sunt blanditiis atque. Perspiciatis sapiente cum eos consequatur omnis quidem sint nesciunt neque voluptatibus magnam culpa officiis laudantium, quia error explicabo facilis non assumenda. Consequuntur, minus corporis fugiat eligendi, iusto similique aliquid numquam non ad vitae porro cum amet consequatur.</p>
+            </div>
+            <div class="serve1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAYpJREFUWEftV4FtwjAQxBuwQdkAmKB0ArpBGaGdALJBR+gI7QSQDdINwgS0E4Q7Kaks+03ehEYJ8ksWSnLxH/efs20mAw0zUF6T+yNWVdUL1N60KF7geWaM+YmtzFWKgdQOibbKZCVwy1hy1xKrlKQa2BuIvce8E00Maq2QYG8lyQIJiXusn7GcVFkdnYkhoTiHU+5E7K+USbG27nSbf7CK4Y/w65OC5svB6KX5p0h0alPWef7/PsaEKOcnftZKcr/AzfpyfqpGw3zGeLhA8Is4kOKaGRXRBivN7phpDiKhvlOTS8TUUtXA8SmGvpm1NLYtAv2Kg8FGf9UqhH7MJWxQscjNoJaHhwutHIlYSNKuil1c62J8TLsJ0JYyEWtKPh7F0ANcoOe1LzXe9IFrjm93lwA8T0KSjx2BLe2mB3aBa+Lto9wK1x7WU0w4ntlzPyHZwUkWOmN6fYm5+W5zpLOn8bCJGOVJitUqpB6jXfCzlqIQ7IKfuxRlwC44vxse9iYbxQCxTrcHS+wM3JY2Nu9YEkUAAAAASUVORK5CYII="/>
+                <h3 id="webdev">Web Development </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam sunt blanditiis atque. Perspiciatis sapiente cum eos consequatur omnis quidem sint nesciunt neque voluptatibus magnam culpa officiis laudantium, quia error explicabo facilis non assumenda. Consequuntur, minus corporis fugiat eligendi, iusto similique aliquid numquam non ad vitae porro cum amet consequatur.</p>
+            </div>
+        </div>
+        <div class="servicecards2">
+            <div class="serve1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAm5JREFUWEftloFRwzAMRZsJ6AZ0A2CDMgHdADoBdAJgAsoGYQM6AWEC6ASkG7BB+P9O7imOHTlJCz2uufNBE1t6/pJlZaMDfbID5RodwbpG5v8qVlXVA9TIsywrY6pgzhjfrjAmGCvM/bQU7K0YnJ2Lszv8paOVAH5rpzLvDe8I554l4BZtcL3BaBROc/y5FgcXvhIRKMdDlecxuCQwhgtGGLLaI2Gc4iXVm2DOVq0I1AbzTpWRKJwJBgfMiy+MORxToe2Db1O8KySHxi7PIlBU5xWjwDhTZhZYt/Q3HQUT41zAHRKOajCXnmGIDoJPDMptSjah4d7xjarXnlbFYOQGswl3IqseQyF1Fi0oNS/H/y43N7DJjaeDcSacVWpFI8EHQnH5C8AoQDoYmGaYzXLAwcVlKB96KkWQNQbztFZi+MEKJU9aqVSp/RZFeSL9OlVg3aWWwCstrVAmmC+v/zu1TnWFGgRmQLk95BIVl+imUm6hWcdCqiVChZZGc6pT8v8VVOdQ/oZSnUO5SyhW/1CJ0BFKyrFdQkmJ4ZV20wZngu0Baip1r/V6swpsqHha5a1REuTiZkdBKN4mtMtqz3uYjcHa74Ct7sKv6J2h3IJAkXWf2Pk2whoEkx2yB9PtcG8oBcc790kZYv9PBRtPDMw3MBhKkt63G+wsonVMWub7FBqZk1TRYZenkVFw3cos1Iu1gTE5PxLBkqCcYrptYmuO92ylSt9XW/LzxNwacMlQiZvcTrPKRY6ZujPQ9vcGFQ2l9h455nuFSgJTp4nHeoJRMHmtu65r6JJzbKjhoevNu3Kog77rj2BdlTtYxX4AOMs8NrUf1K4AAAAASUVORK5CYII="/>
+                <h3 id="graph">Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam sunt blanditiis atque. Perspiciatis sapiente cum eos consequatur omnis quidem sint nesciunt neque voluptatibus magnam culpa officiis laudantium, quia error explicabo facilis non assumenda. Consequuntur, minus corporis fugiat eligendi, iusto similique aliquid numquam non ad vitae porro cum amet consequatur.</p>
+            </div>
+            <div class="serve1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAASVJREFUWEftmO0RATEQhi8V0AE60AE60IIKjArQgU7ogBJcBXSACs673Jkkd5EPCTdjM3N/ZLN57tm5nYTIWjpES7kyBvOtzFtjRVH0kbDnm9Qx/iaEOJpiG8EA1MWCLZ6x4yahYVcsnAFwpycwge2/ACWzDAB3ln+ogZXlO4UqCFy3BtjKBkblI2OPgQVJvlwIIJBluQ2DWSvKxqyKtAA2xsa4jz0NcIO1fgvcLqyKuMH6KvobY3hR5WT5oSh5OR1I6XHuY3QRuUQEcEm1wEF5IweaLiMUNHfJGCEmJ3MAoxvTayhgaHpDzHTKWSphpTrC/sYUU8xUUHkFqIMdEDRKSWHJPQEYMaj/XcAYgxnMNRv7YQlrWye5zMZ4QQbztcjGfI3dAZgx1ScNUzv+AAAAAElFTkSuQmCC"/>
+                <h3 id="digit">Digital Marketing </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam sunt blanditiis atque. Perspiciatis sapiente cum eos consequatur omnis quidem sint nesciunt neque voluptatibus magnam culpa officiis laudantium, quia error explicabo facilis non assumenda. Consequuntur, minus corporis fugiat eligendi, iusto similique aliquid numquam non ad vitae porro cum amet consequatur.</p>          
+            </div>
+            <div class="serve1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAALpJREFUWEftmNEJgDAMRM0GjuAGruAojqKT6Sg6Sb0WlIqiuQ+hwvXLj+Q4XmITalWhxwr1VckYW5kLsRBCDZGWFUL8amYL8jt8BzI/5eY5d8ai8EQKx/AR4gOMsaaOXBkjqCfaIiZiLwT0VxItkkJFTMT2NvjtBdvAec/WEfEzxsqMGX4aLU6dlPtIzCn0eZjWHs/U+G3za4PNSqdFkb1OREzEPAS0KHoo5TGfE9Pa81QSPdyxDVsssQ3GviM2h7qHBwAAAABJRU5ErkJggg=="/>
+                <h3>Microsoft 360 </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam sunt blanditiis atque. Perspiciatis sapiente cum eos consequatur omnis quidem sint nesciunt neque voluptatibus magnam culpa officiis laudantium, quia error explicabo facilis non assumenda. Consequuntur, minus corporis fugiat eligendi, iusto similique aliquid numquam non ad vitae porro cum amet consequatur.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="galleryname">
+            <h1><strong>Gallery</strong></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta dolores laborum mollitia quod sed soluta voluptates eveniet natus facere! Atque labore dolore praesentium ratione reprehenderit asperiores sunt mollitia veniam fuga aliquam. Libero, asperiores nulla? Earum vero animi quibusdam explicabo facere quam doloremque. Quae modi quod temporibus, consequuntur excepturi est?</p>
+        </div>
+        <div class="gallerypics">
+            <div class="gallerypics1">
+                <div class="pic1">
+                    <img src="pic1.jpg" alt="1">
+                </div>
+                <div class="pic1">
+                    <img src="pic2.jpg" alt="2">
+                </div>
+                <div class="pic1">
+                    <img src="pic3.png" alt="3">
+                </div>
+                <div class="pic1">
+                    <img src="pic4.jpg" alt="4">
+                </div>
+            </div>
+            <div class="gallerypics2">
+                <div class="pic1">
+                    <img src="pic5.png" alt="5">
+                </div>
+                <div class="pic1">
+                    <img src="pic6.png" alt="6">
+                </div>
+                <div class="pic1">
+                    <img src="pic7.jpg" alt="7">
+                </div>
+                <div class="pic1">
+                    <img src="pic8.jpg" alt="8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
 
     <script src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
