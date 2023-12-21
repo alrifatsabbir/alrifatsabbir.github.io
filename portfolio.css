@@ -31,7 +31,7 @@ nav {
     100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-ul{
+.menu{
     list-style: none;
     display: flex;
     column-gap: 13px;
@@ -379,33 +379,223 @@ section{
     border-radius: 16px;
 }
 
+.blogsdiv h1{
+    margin: 120px 0 50px 40%;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+    font-family: 'Redressed';
+}
 
+.blogsdiv p{
+    margin: 4%;
+    font-size: 18px;
+    color: #fff;
+}
 
+.blogs{
+    background: url(bg8.jpg), #1d1d1d;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
 
+.blogs1{
+    display: flex;
+}
 
+.blogs2{
+    display: flex;
+}
 
+.blogs3{
+    display: flex;
+}
 
+.blog{
+    margin: 3% 3%;
+    display: flex;
+    background-color: rgba(51, 50, 50, 0.377);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    border-radius: 15px;
+}
 
+.blog img {
+    height: 210px;
+    width: 280px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 
+.tittle{
+    margin-left: 1.5%;
+}
 
+.contacttittle h1{
+    margin: 120px 0 50px 40%;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+    font-family: 'Redressed';
+}
 
+.contacttittle p{
+    margin: 4%;
+    font-size: 18px;
+    color: #fff;
+}
 
+.contactbg{
+    background: url(bg2.png), rgb(252, 71, 0);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
 
+.contactform, .googlemap {
+    padding: 3%;
+}
 
+.contactform > form > input, textarea {
+    align-items: center;
+    height: 2%;
+    width: 80%;
+    margin: 1% 1% 0 7%;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: 2px solid orangered;
+}
 
+.contactform > form > input:hover, textarea:hover{
+    color: #000;
+    background-color: rgb(252, 71, 0);
+    border: 2px solid #fff;
+}
 
+.googlemap{
+    margin: 2% 0 0 15%;
+}
 
+#btnin{
+    height: 20%;
+    width: 20%;
+    padding: 1%;
+    border: 2px solid rgb(252, 71, 0);
+    color: rgb(252, 71, 0);
+    margin-top: 3%;
+    margin-left: 35%;
+}
 
+#btnin:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: rgb(252, 71, 0);
+}
 
+.footparent{
+    background: url(bg5.jpg), #333;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin: 1%;
+}
 
+.logo1{
+    margin: 2%;
+}
 
+.logo1 h1{
+    font-size: 72px;
+    font-family: 'Redressed';
+    margin: 10% 0 0 50px;
+    color: #fff;
+}
 
+.logo1 h1:hover, address h3:hover,.logo1 address p:hover{
+    color: orangered;
+}
 
+.logo1 h3, .logo1 p{
+    font-size: 20px;
+    font-family: 'Redressed';
+    margin: 0 0 0 50px;
+    color: #fff;
+}
 
+.logo1 h3{
+    font-size: 30px;
+}
 
+.footcard{
+    display: flex;
+}
 
+.fc{
+    color: #fff;
+}
 
+.fc h2{
+    margin: 10% 0 0 17%;
+}
 
+ul{
+    list-style: none;
+}
+
+.q ul li a {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.qlink1 ul li a {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.qlink2 ul li a {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.qlink{
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+    height: 100%;
+    width: 120%;
+}
+
+.qlink1{
+    display: flex;
+    padding: 2%;
+    margin: 2% 0 0 30%;
+    height: 100%;
+    width: 120%;
+}
+
+.qlink2{
+    padding: 2%;
+    margin: 2% 0 0 24%;
+    height: 100%;
+    width: 80%;
+}
+
+#oq{
+    margin-left: 32%;
+}
+
+#ql {
+    margin-left: 54%;
+}
 
 
 @media only screen and (max-width: 768px) {
